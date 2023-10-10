@@ -16,7 +16,7 @@ export default function Index() {
       
       <AppHeader />
 
-      <div style="max-width: 700px;margin-left: auto; margin-right: auto;">
+      <div style={{maxWidth: 700, marginLeft: "auto", marginRight: "auto"}}>
         <div id="appCapsule">
           <HomeContent />
           <Menu />
